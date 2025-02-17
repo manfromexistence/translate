@@ -1,5 +1,5 @@
 # Translate
-free google translate
+free translate
 
 ## Features
 
@@ -10,7 +10,7 @@ free google translate
 
 ## Install
 ```
-npm install --save translate
+npm install --save manfromexistence-translate
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ npm install --save translate
 Perfect support object:
 
 ``` js
-const translate = require('translate')
+const translate = require('manfromexistence-translate')
 const tranObj = {
   a: 1,
   b: '1',
@@ -38,7 +38,7 @@ translate(tranObj, {to: 'zh-cn', except:['a']}).then(res => {
 From automatic language detection to English:
 
 ``` js
-const translate = require('translate-google')
+const translate = require('manfromexistence-translate')
 
 translate('I speak Chinese', {to: 'zh-cn'}).then(res => {
     console.log(res)
@@ -105,4 +105,4 @@ translate(['I speak Chinese\nHello world', 'hello'], {from: 'en', to: 'nl'}).the
 
 ## License
 
-MIT © [Shikar](qzh.shi@gmail.com)
+MIT © [manfromexistence](ajju40959@gmail.com)

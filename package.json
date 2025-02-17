@@ -1,7 +1,7 @@
 {
-  "name": "manfromexistence-translate",
+  "name": "manfromexistence-translate-beta",
   "version": "0.0.1",
-  "description": "A free and unlimited for Google Translate, Multi-translation support object input",
+  "description": "A free and unlimited Translate, Multi-translation support object input",
   "main": "index.js",
   "scripts": {
     "test": "nyc ava"
